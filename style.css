@@ -1,0 +1,104 @@
+body { 
+    background-color: darkgrey; 
+    padding: 0;
+    margin:0 auto; 
+    width:60%;
+    color:darkslateblue;
+}
+header{
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+}
+nav ul{
+    list-style: none;
+    display: inline-flex;
+    margin: 15px;
+}
+nav ul li a{
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+#meet{
+    margin-top: 12px;
+    display: inline-block;
+}
+.meet-me{
+    background-color: darkkhaki;
+    text-align: center;
+    width:50%;
+    height: 360px;
+    float: left;
+}
+.clear-float{
+    float: none;
+}
+#profilePic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 25px;
+}
+.main-section{
+    margin-top: 25px;
+    text-align: center;
+}
+h1{font-size: 1.8em;color:white; padding: 0px; margin: 25px 0px 0px 0px;}
+h2{font-size: 2.2em; padding: 0px; margin:0px;}
+h3{font-size: 2.6em; padding: 0px; margin:0px 20px 0px 0px;}
+h4{font-size: 2.8em; padding: 0px; margin:0px; border-bottom: 3px solid black;}
+#objStatement{
+    font-size: 1.1em;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top: 15px;
+}
+.skills{
+    color:white;
+}
+.pBox{
+    height: 150px;
+    width:32%;
+    background-color: white;
+    float: left;
+    margin: 4px 4px 25px 4px;
+}
+.projectTitle{
+    font-size: 1.2em;
+    font-weight: 800;
+}
+#content{
+    text-align: left;
+}
+#social-links img{
+    height: 120px;
+    width: 120px;
+    margin:30px;
+}
+footer{
+    font-size: 1.4em;
+}
+#comment-box{
+    width: 240px;
+    height: 150px;
+}
+#contact-form{
+    text-align: left;
+}
+.form-input{
+    width: 240px;
+    height: 20px;
+}
+label{
+    font-size: 1.2em;
+    font-weight: 900;
+}
+a:hover{
+    color:darkviolet;
+}
+a:active{
+    color:crimson;
+}
